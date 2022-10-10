@@ -1,4 +1,5 @@
 public class IntList {
+
   private int size = 0;
   private int[] list = new int[30];
 

@@ -2,9 +2,9 @@ public class TestIntList{
 
 	public static void main(String[] args){
 		IntList list = new IntList();
-		
+
 		for(int i=0; i<20; i++) {
-			list.add(100+i);
+			list.add(100 + i);
 		}
 		System.out.println("list[10]= "+list.get(10));
 		System.out.println("setting list[10] to 99");
